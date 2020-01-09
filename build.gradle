@@ -14,7 +14,7 @@ buildscript {
 }
 
 allprojects {
-    group = 'me.dm7.barcodescanner'
+    group = 'me.lapskaus.barcodescanner'
     version = '1.9.13'
 
     repositories {
@@ -69,12 +69,12 @@ subprojects {
                             packaging project.pomPackaging
                             artifactId project.pomArtifactId
                             description project.pomDescription
-                            url 'https://github.com/dm77/barcodescanner'
+                            url 'https://github.com/lapskaus/barcodescanner'
 
                             scm {
-                                url 'scm:git@github.com:dm77/barcodescanner.git'
-                                connection 'scm:git@github.com:dm77/barcodescanner.git'
-                                developerConnection 'scm:git@github.com:dm77/barcodescanner.git'
+                                url 'scm:git@github.com:lapskaus/barcodescanner.git'
+                                connection 'scm:git@github.com:lapskaus/barcodescanner.git'
+                                developerConnection 'scm:git@github.com:lapskaus/barcodescanner.git'
                             }
 
                             licenses {
@@ -87,7 +87,7 @@ subprojects {
 
                             developers {
                                 developer {
-                                    id 'dm77'
+                                    id 'lapskaus'
                                     name 'Dushyanth Maguluru'
                                     email 'dushyanth.maguluru@gmail.com'
                                 }
@@ -124,10 +124,10 @@ subprojects {
                     configurations = ['archives']
                     pkg {
                         repo = 'maven'
-                        name = 'me.dm7.barcodescanner:' + project.pomArtifactId
+                        name = 'me.lapskaus.barcodescanner:' + project.pomArtifactId
                         desc = 'Barcode Scanner Libraries for Android'
-                        websiteUrl = 'https://github.com/dm77/barcodescanner'
-                        vcsUrl = 'https://github.com/dm77/barcodescanner.git'
+                        websiteUrl = 'https://github.com/lapskaus/barcodescanner'
+                        vcsUrl = 'https://github.com/lapskaus/barcodescanner.git'
                         licenses = ["Apache-2.0"]
                         publish = true
                         publicDownloadNumbers = true

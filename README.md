@@ -5,9 +5,9 @@ Android library projects that provides easy to use and extensible Barcode Scanne
 
 Screenshots
 ===========
-<img src="https://raw.github.com/dm77/barcodescanner/master/screenshots/main_activity.png" width="266">
-<img src="https://raw.github.com/dm77/barcodescanner/master/screenshots/scanner.png" width="266">
-<img src="https://raw.github.com/dm77/barcodescanner/master/screenshots/scan_results.png" width="266">
+<img src="https://raw.github.com/lapskaus/barcodescanner/master/screenshots/main_activity.png" width="266">
+<img src="https://raw.github.com/lapskaus/barcodescanner/master/screenshots/scanner.png" width="266">
+<img src="https://raw.github.com/lapskaus/barcodescanner/master/screenshots/scan_results.png" width="266">
 
 
 Minor BREAKING CHANGE in 1.8.4
@@ -29,7 +29,7 @@ Add the following dependency to your build.gradle file.
 repositories {
    jcenter()
 }
-implementation 'me.dm7.barcodescanner:zxing:1.9.13'
+implementation 'me.lapskaus.barcodescanner:zxing:1.9.13'
 ```
 
 Simple Usage
@@ -80,12 +80,12 @@ public class SimpleScannerActivity extends Activity implements ZXingScannerView.
 
 ```
 
-Please take a look at the [zxing-sample](https://github.com/dm77/barcodescanner/tree/master/zxing-sample) project for a full working example.
+Please take a look at the [zxing-sample](https://github.com/lapskaus/barcodescanner/tree/master/zxing-sample) project for a full working example.
 
 Advanced Usage
 --------------
 
-Take a look at the [FullScannerActivity.java](https://github.com/dm77/barcodescanner/blob/master/zxing-sample/src/main/java/me/dm7/barcodescanner/zxing/sample/FullScannerActivity.java) or [FullScannerFragment.java](https://github.com/dm77/barcodescanner/blob/master/zxing-sample/src/main/java/me/dm7/barcodescanner/zxing/sample/FullScannerFragment.java) classes to get an idea on advanced usage.
+Take a look at the [FullScannerActivity.java](https://github.com/lapskaus/barcodescanner/blob/master/zxing-sample/src/main/java/me/lapskaus/barcodescanner/zxing/sample/FullScannerActivity.java) or [FullScannerFragment.java](https://github.com/lapskaus/barcodescanner/blob/master/zxing-sample/src/main/java/me/lapskaus/barcodescanner/zxing/sample/FullScannerFragment.java) classes to get an idea on advanced usage.
 
 Interesting methods on the ZXingScannerView include:
 
@@ -146,7 +146,7 @@ Add the following dependency to your build.gradle file.
 repositories {
    jcenter()
 }
-implementation 'me.dm7.barcodescanner:zbar:1.9.13'
+implementation 'me.lapskaus.barcodescanner:zbar:1.9.13'
 ```
 
 Simple Usage
@@ -197,13 +197,13 @@ public class SimpleScannerActivity extends Activity implements ZBarScannerView.R
 
 ```
 
-Please take a look at the [zbar-sample](https://github.com/dm77/barcodescanner/tree/master/zbar-sample)  project for a full working example.
+Please take a look at the [zbar-sample](https://github.com/lapskaus/barcodescanner/tree/master/zbar-sample)  project for a full working example.
 
 Advanced Usage
 --------------
 
 
-Take a look at the [FullScannerActivity.java](https://github.com/dm77/barcodescanner/blob/master/zbar-sample/src/main/java/me/dm7/barcodescanner/zbar/sample/FullScannerActivity.java) or [FullScannerFragment.java](https://github.com/dm77/barcodescanner/blob/master/zbar-sample/src/main/java/me/dm7/barcodescanner/zbar/sample/FullScannerFragment.java) classes to get an idea on advanced usage.
+Take a look at the [FullScannerActivity.java](https://github.com/lapskaus/barcodescanner/blob/master/zbar-sample/src/main/java/me/lapskaus/barcodescanner/zbar/sample/FullScannerActivity.java) or [FullScannerFragment.java](https://github.com/lapskaus/barcodescanner/blob/master/zbar-sample/src/main/java/me/lapskaus/barcodescanner/zbar/sample/FullScannerFragment.java) classes to get an idea on advanced usage.
 
 Interesting methods on the ZBarScannerView include:
 
@@ -291,7 +291,7 @@ Almost all of the code for these library projects is based on:
 Contributors
 ============
 
-https://github.com/dm77/barcodescanner/graphs/contributors
+https://github.com/lapskaus/barcodescanner/graphs/contributors
 
 License
 =======
